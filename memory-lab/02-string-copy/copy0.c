@@ -4,7 +4,10 @@
 // Notice that BOTH s and t get capitalized, even though we only changed t.
 //
 // TODO: Write a comment below explaining WHY this happens:
-// ANSWER: ...
+
+// ANSWER: Because t = s does not create a new copy of the string.
+// Both s and t point to the same memory location.
+// When we modify t, we are also modifying s.
 
 #include <cs50.h>
 #include <ctype.h>
